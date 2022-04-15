@@ -10,4 +10,10 @@ public class Etudiant implements Comparable<Etudiant>{
 		this.id=id;
 		note=10;
 	}
+	
+	@Override
+	public String toString() {
+		return nom +" : "+ note;
+	}
+	
 }
