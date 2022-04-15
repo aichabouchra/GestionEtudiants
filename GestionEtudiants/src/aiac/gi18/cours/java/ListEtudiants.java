@@ -8,9 +8,5 @@ public class ListEtudiants extends ArrayList<Etudiant> {
 		if (this.contains(e)) return false;
 		return super.add(e);
 	} 
-	/*
-	@Override
-	public boolean estVrai(Etudiant e) {
-		
-	}*/
+
 }
