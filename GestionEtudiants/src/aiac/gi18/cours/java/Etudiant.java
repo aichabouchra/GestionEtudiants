@@ -1,8 +1,5 @@
 package aiac.gi18.cours.java;
 
-import Complexe.Complexe;
-import aiac.gi18.personne.Etudiant;
-
 public class Etudiant implements Comparable<Etudiant>{
 	private String nom;
 	private int  id;
@@ -18,7 +15,21 @@ public class Etudiant implements Comparable<Etudiant>{
 		return note;
 	}
 	public void setNote(double note) {
-		this.note = note;
+		this.note = note; 
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	@Override
