@@ -1,5 +1,7 @@
 package aiac.gi18.cours.java;
 
+import java.util.Collection;
+import java.util.Collections;
 
 public class Main {
 	public static void main(String[] args) {
@@ -17,6 +19,8 @@ public class Main {
 		
 		System.out.println(mesEtudiants);
 		
+		Collections.sort(mesEtudiants);
+		System.out.println(mesEtudiants);
 
 
 	}
