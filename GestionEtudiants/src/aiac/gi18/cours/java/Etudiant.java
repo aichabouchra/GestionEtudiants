@@ -1,5 +1,6 @@
 package aiac.gi18.cours.java;
 
+import Complexe.Complexe;
 import aiac.gi18.personne.Etudiant;
 
 public class Etudiant implements Comparable<Etudiant>{
@@ -20,7 +21,7 @@ public class Etudiant implements Comparable<Etudiant>{
 	
 	@Override
 	public boolean equals(Object obj) {
-		if (obj.id == this.id) return true;
+		if (((Etudiant)obj).id == this.id) return true;
 		return false;
 	}
 	
