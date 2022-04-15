@@ -5,5 +5,9 @@ public class Etudiant implements Comparable<Etudiant>{
 	private int  id;
 	private double note;
 	
-	
+	Etudiant(int id, String nom){
+		this.nom=nom;
+		this.id=id;
+		note=10;
+	}
 }
