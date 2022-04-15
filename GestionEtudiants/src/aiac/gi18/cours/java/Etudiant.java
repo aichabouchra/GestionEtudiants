@@ -16,4 +16,9 @@ public class Etudiant implements Comparable<Etudiant>{
 		return nom +" : "+ note;
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		if (obj.id == this.id) return true;
+		return false;
+	}
 }
